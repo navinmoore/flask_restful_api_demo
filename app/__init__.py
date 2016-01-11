@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from config import load_config
 from flask import current_app
 
-app = Flask(__name__,instance_path='F:/flask study/restful_demo1/instance')
+app = Flask(__name__)
 
 config = load_config()
 app.config.from_object(config)
